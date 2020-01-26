@@ -1,1 +1,3 @@
-from .database import get_question, authentication
+from .database import getNumberOfQuestions, authentication, getQuestion
+
+print(getQuestion("2"))
